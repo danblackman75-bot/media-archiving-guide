@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Media Archiving Guide: what to buy and how to do it</title>
+<meta name="description" content="A plain-English guide to digitizing family photos, home videos and discs: a new PC, a photo scanner, a CD/DVD drive, and how to keep it all safe. Prices checked October 25, 2026.">
+<style>
+:root{--ink:#1d2433;--muted:#5b6476;--line:#e3e7ee;--bg:#f6f7fb;--card:#fff;--accent:#2f6fde;--accent2:#e8f0fe;--good:#1f8a5b;--warn:#a15c00;--warnbg:#fff6e5;--radius:14px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:18px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.hero{background:linear-gradient(135deg,#1e3a8a,#2f6fde 60%,#4f9bff);color:#fff;padding:56px 0 64px}
+.hero .curated{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 14px;font-size:15px;letter-spacing:.02em;margin-bottom:18px}
+.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.15;margin:0 0 14px}
+.hero p{font-size:clamp(17px,2.2vw,21px);max-width:760px;margin:0 0 24px;opacity:.95}
+.hero .stamp{font-size:15px;opacity:.9}
+.hero .cta{display:inline-block;background:#fff;color:#1e3a8a;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:10px;margin:0 10px 10px 0}
+.hero .cta.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}
+nav.toc{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 20px;scrollbar-width:none}
+nav.toc a{white-space:nowrap;text-decoration:none;color:var(--ink);font-size:15px;padding:6px 12px;border-radius:999px;background:var(--bg)}
+nav.toc a:hover{background:var(--accent2);color:var(--accent)}
+section{padding:44px 0 8px}
+h2{display:flex;align-items:center;gap:12px;font-size:clamp(24px,3.4vw,32px);margin:0 0 8px}
+h2 .ico{flex:0 0 44px;height:44px;border-radius:12px;background:var(--accent2);display:grid;place-items:center}
+h2 .ico svg{width:24px;height:24px;stroke:var(--accent);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+h3{font-size:21px;margin:26px 0 8px}
+.lede{color:var(--muted);margin:0 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin:16px 0}
+.callout{background:var(--accent2);border-left:5px solid var(--accent);border-radius:10px;padding:16px 18px;margin:16px 0}
+.note{background:var(--warnbg);border-left:5px solid #f0a020;border-radius:10px;padding:14px 18px;margin:16px 0;font-size:16px}
+.grid{display:grid;gap:16px}
+.g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.kit{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;position:relative}
+.kit.rec{border:2px solid var(--accent);box-shadow:0 8px 24px rgba(47,111,222,.12)}
+.kit .badge{position:absolute;top:-12px;left:18px;background:var(--accent);color:#fff;font-size:13px;font-weight:700;padding:3px 10px;border-radius:999px}
+.kit .total{font-size:34px;font-weight:800;margin:4px 0}
+.kit ul{padding-left:20px;margin:8px 0 0;font-size:16px}
+.products{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));margin-top:14px}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+.prod .img{background:#fff;aspect-ratio:4/3;display:grid;place-items:center;padding:12px;border-bottom:1px solid var(--line)}
+.prod img{max-width:100%;max-height:100%;object-fit:contain}
+.prod .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.prod .name{font-weight:700;line-height:1.3}
+.prod .price{font-size:24px;font-weight:800}
+.prod .price small{font-size:14px;font-weight:500;color:var(--muted)}
+.prod .why{font-size:15px;color:var(--muted);flex:1}
+.prod .tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--warnbg);color:var(--warn);align-self:flex-start}
+.prod .tag.ok{background:#e7f6ee;color:var(--good)}
+.buy{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:11px;border-radius:10px;margin-top:6px}
+.buy:hover{filter:brightness(1.08)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 4px}
+.tabs button{font:inherit;font-size:16px;border:1px solid var(--line);background:var(--card);padding:9px 16px;border-radius:999px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.sumrow{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:14px;font-size:18px}
+.sumrow strong{font-size:24px}
+table{width:100%;border-collapse:collapse;font-size:16px;background:var(--card)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:12px 0}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f0f3f8;font-size:14px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+tr:last-child td{border-bottom:none}
+.chart{position:relative;height:300px}
+.flow{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap;margin:18px 0}
+.flow .step{flex:1 1 170px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;text-align:center;position:relative}
+.flow .num{width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;display:grid;place-items:center;margin:0 auto 8px}
+.flow .step svg{width:40px;height:40px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.flow .step b{display:block;margin:4px 0}
+.flow .step span{font-size:15px;color:var(--muted)}
+.flow .arrow{display:grid;place-items:center;color:var(--accent);font-size:26px;flex:0 0 20px}
+.copies{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.copy{border:2px dashed #b9c8e6;border-radius:12px;padding:14px;text-align:center;background:#fbfcff}
+.copy .big{font-size:30px;font-weight:800;color:var(--accent)}
+ol.steps{counter-reset:s;list-style:none;padding:0;margin:0}
+ol.steps li{counter-increment:s;position:relative;padding:10px 0 10px 52px;border-bottom:1px solid var(--line)}
+ol.steps li:last-child{border-bottom:none}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:10px;width:36px;height:36px;border-radius:50%;background:var(--accent2);color:var(--accent);font-weight:800;display:grid;place-items:center}
+code{background:#eef1f6;padding:2px 6px;border-radius:6px;font-size:15px}
+.pc{display:grid;gap:10px}
+.pc div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--line);padding:6px 0}
+footer{margin-top:50px;padding:30px 0 50px;background:#111827;color:#cbd5e1;font-size:15px}
+footer a{color:#93c5fd}
+@media (max-width:640px){body{font-size:17px}.flow .arrow{transform:rotate(90deg);flex-basis:100%;height:18px}.chart{height:260px}.card{padding:16px}}
+@media print{nav.toc{display:none}header.hero{background:#1e3a8a !important;-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="curated">Curated for Raymond Wrobel</div>
+    <h1>Saving the family photos, videos and discs</h1>
+    <p>A plain-English shopping list and how-to: a new computer, a photo scanner, a CD/DVD drive, and a simple way to keep every memory safe. Every item has a click-to-buy link.</p>
+    <a class="cta" href="#mid">See the recommended kit</a>
+    <a class="cta ghost" href="#kits">Compare all three</a>
+    <div class="stamp">Prices checked Sunday, October 25, 2026 (Eastern). Prices are before tax and shipping and can change at any time.</div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections">
+  <div class="wrap">
+    <a href="#kits">The kits</a><a href="#mid">Recommended</a><a href="#shop">Shopping list</a><a href="#pc">Computer</a><a href="#addons">Optional add-ons</a><a href="#workflow">How it works</a><a href="#backup">Backup</a><a href="#settings">Scan settings</a><a href="#software">Software</a><a href="#tips">Tips</a><a href="#outsource">DIY or send out</a><a href="#fine">Good to know</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="kits">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span>The three kits at a glance</h2>
+  <p class="lede">One-time cost for the core setup: computer, photo scanner, CD/DVD drive and backup drive. Tapes, slides and cassettes are optional and priced separately.</p>
+  <div class="grid g3">
+    <div class="kit">
+      <h3 style="margin-top:0">Budget</h3>
+      <div class="total">$1,338.97</div>
+      <ul><li>Epson V39 II flatbed (a few photos at a time)</li><li>Lenovo IdeaCentre Tower</li><li>ASUS CD/DVD drive</li><li>Seagate 8 TB backup (store pickup)</li></ul>
+    </div>
+    <div class="kit rec">
+      <span class="badge">Recommended</span>
+      <h3 style="margin-top:0">Mid-range</h3>
+      <div class="total">$1,868.36</div>
+      <ul><li>Epson FastFoto FF-680W (fast, feeds stacks)</li><li>Lenovo IdeaCentre Tower</li><li>ASUS CD/DVD drive</li><li>WD Elements 8 TB backup</li></ul>
+    </div>
+    <div class="kit">
+      <h3 style="margin-top:0">Premium</h3>
+      <div class="total">$2,269.33</div>
+      <ul><li>FastFoto plus V39 II for fragile photos</li><li>Dell Tower (more room for add-in cards)</li><li>ASUS CD/DVD drive</li><li>Two 8 TB drives (one kept off-site)</li></ul>
+    </div>
+  </div>
+  <div class="grid g2">
+    <div class="card"><h3 style="margin-top:0">Kit totals</h3><div class="chart"><canvas id="kitChart" aria-label="Bar chart of kit totals"></canvas></div></div>
+    <div class="card"><h3 style="margin-top:0">Where the mid-range money goes</h3><div class="chart"><canvas id="midChart" aria-label="Doughnut chart of mid-range costs"></canvas></div></div>
+  </div>
+  <p class="lede">None of the kits includes a monitor. If one is needed, the Dell 24-inch is $164.99 (in the shopping list). Online backup is extra and yearly: Backblaze is $99 a year.</p>
+</section>
+
+<section id="mid">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 7-6.2-3.4L5.8 21 7 14.3 2 9.4l7-.9z"/></svg></span>Recommended: the mid-range kit</h2>
+  <div class="callout"><strong>Why this one:</strong> the FastFoto scanner feeds a stack of up to 36 prints at a time and scans the fronts and backs, so handwritten dates and names are saved too. That turns a box of thousands of photos into weeks of work instead of months. Everything in this kit ships to the door.</div>
+  <div class="sumrow"><span>Mid-range one-time total</span><strong>$1,868.36</strong><span>plus Backblaze online backup, $99 a year</span></div>
+</section>
+
+<section id="shop">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/></svg></span>Shopping list: click and buy</h2>
+  <p class="lede">Pick a kit to see exactly what to buy. Each button opens the store's product page.</p>
+  <div class="tabs" role="tablist">
+    <button role="tab" data-kit="budget" aria-selected="false">Budget</button>
+    <button role="tab" data-kit="mid" aria-selected="true">Mid-range (recommended)</button>
+    <button role="tab" data-kit="premium" aria-selected="false">Premium</button>
+  </div>
+  <div id="kitProducts" class="products"></div>
+  <div class="sumrow"><span id="kitLabel">Mid-range total</span><strong id="kitTotal">$1,868.36</strong><span>before tax and shipping</span></div>
+  <h3>Ongoing and if-needed extras (not in the totals)</h3>
+  <div id="extraProducts" class="products"></div>
+</section>
+
+<section id="pc">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 6h4M10 10h4"/><circle cx="12" cy="17" r="1"/></svg></span>What the computer needs</h2>
+  <div class="grid g2">
+    <div class="card">
+      <h3 style="margin-top:0">The checklist</h3>
+      <div class="pc">
+        <div><span>Processor</span><b>Current Intel Core Ultra 5 or AMD Ryzen 5/7</b></div>
+        <div><span>Memory</span><b>16 GB</b></div>
+        <div><span>Built-in storage</span><b>1 TB SSD</b></div>
+        <div><span>USB ports</span><b>At least 4, including USB 3</b></div>
+        <div><span>Expansion slot</span><b>Only needed for MiniDV tapes</b></div>
+        <div><span>Windows</span><b>Windows 11 Home</b></div>
+        <div><span>Monitor</span><b>Not included; reuse or add one</b></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">The two picks</h3>
+      <div class="tablewrap"><table>
+        <tr><th></th><th>Lenovo IdeaCentre Tower</th><th>Dell Tower ECT1250</th></tr>
+        <tr><td>Price</td><td>$899.00 (B&amp;H, ships)</td><td>$899.99 (Micro Center, pickup only)</td></tr>
+        <tr><td>Processor</td><td>AMD Ryzen AI 7 350</td><td>Intel Core Ultra 5 225</td></tr>
+        <tr><td>Memory / storage</td><td>16 GB / 1 TB SSD</td><td>16 GB / 1 TB SSD</td></tr>
+        <tr><td>USB ports</td><td>7</td><td>Plenty for this setup</td></tr>
+        <tr><td>SD card reader</td><td>No</td><td>Yes</td></tr>
+        <tr><td>Inside expansion slot</td><td>1 low-profile slot</td><td>Yes, more room for cards</td></tr>
+      </table></div>
+      <p style="font-size:15px;color:var(--muted);margin:0">Neither has a built-in disc drive, which is why every kit adds the ASUS drive. The Lenovo's slot is listed on Lenovo's spec sheet; the FireWire card below includes a low-profile bracket for it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="addons">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="8" cy="12" r="2.5"/><circle cx="16" cy="12" r="2.5"/><path d="M8 14.5h8"/></svg></span>Optional add-ons: slides, tapes and cassettes</h2>
+  <p class="lede">Not included in any kit total. Buy only what matches what is actually in the boxes.</p>
+  <div id="addonProducts" class="products"></div>
+  <div class="sumrow"><span>Add-ons subtotal (Plustek, Elgato, FireWire card, AudioStar)</span><strong>$682.26</strong><span>$615.27 without the FireWire card</span></div>
+  <div class="card">
+    <h3 style="margin-top:0">Which add-on for which tape or film?</h3>
+    <div class="tablewrap"><table>
+      <tr><th>What he has</th><th>What it needs</th></tr>
+      <tr><td>35 mm slides and negatives</td><td>Plustek film scanner, or the Epson V850 Pro for larger film and big batches</td></tr>
+      <tr><td>VHS, VHS-C</td><td>A working VCR (VHS-C needs an adapter cassette) plus the Elgato</td></tr>
+      <tr><td>Hi8, Video8</td><td>A working Hi8 or Video8 camcorder plus the Elgato</td></tr>
+      <tr><td>MiniDV</td><td>The camcorder plus a FireWire card and free WinDV software for an exact copy. Or plug the camcorder into the Elgato for a softer copy with no card.</td></tr>
+      <tr><td>Audio cassettes</td><td>The AudioStar records straight to a USB flash drive, no computer needed</td></tr>
+    </table></div>
+    <ul style="font-size:16px">
+      <li>VCRs are no longer sold new. Borrow one or buy a tested used one; no listing is linked because used prices vary.</li>
+      <li>Moldy, snapped or very precious tapes are best sent to a professional instead of played.</li>
+      <li>The FireWire card's store page lists Windows support in general, not Windows 11 by name, so test it with an unimportant tape first.</li>
+      <li>The popular Epson V600 film flatbed is discontinued; skip new ones at marked-up reseller prices.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="workflow">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 6h10M4 12h16M4 18h7"/><path d="M17 3l3 3-3 3"/></svg></span>How it works, start to finish</h2>
+  <div class="flow">
+    <div class="step"><div class="num">1</div><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg><b>Sort</b><span>Group by decade or event into labeled envelopes</span></div>
+    <div class="arrow">&#8594;</div>
+    <div class="step"><div class="num">2</div><svg viewBox="0 0 24 24"><rect x="3" y="10" width="18" height="8" rx="2"/><path d="M6 10V5h12v5M7 14h10"/></svg><b>Scan</b><span>Prints in the scanner, discs in the drive, tapes in real time</span></div>
+    <div class="arrow">&#8594;</div>
+    <div class="step"><div class="num">3</div><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><b>Organize</b><span>Folders by year and event; add names and places</span></div>
+    <div class="arrow">&#8594;</div>
+    <div class="step"><div class="num">4</div><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg><b>Back up 3-2-1</b><span>Copy to the backup drive and online after every session</span></div>
+  </div>
+</section>
+
+<section id="backup">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><path d="M7 18a5 5 0 1 1 1-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 8z"/><path d="M12 12v6M9.5 14.5L12 12l2.5 2.5"/></svg></span>Keeping it safe: the 3-2-1 plan</h2>
+  <div class="copies">
+    <div class="copy"><div class="big">3</div><b>copies of everything</b><br><span style="font-size:15px;color:var(--muted)">On the PC, on the backup drive, and online</span></div>
+    <div class="copy"><div class="big">2</div><b>kinds of storage</b><br><span style="font-size:15px;color:var(--muted)">The computer's drive plus the external drive</span></div>
+    <div class="copy"><div class="big">1</div><b>copy away from the house</b><br><span style="font-size:15px;color:var(--muted)">Online backup, or a second drive at a family member's home</span></div>
+  </div>
+  <div class="tablewrap"><table>
+    <tr><th>Online option</th><th>Price shown</th><th>Good for</th></tr>
+    <tr><td><a href="https://www.backblaze.com/cloud-backup/pricing" target="_blank" rel="noopener">Backblaze Personal Backup</a></td><td>$99 per year</td><td>Unlimited automatic backup of the PC and plugged-in drives; set it and forget it</td></tr>
+    <tr><td><a href="https://one.google.com/about/plans" target="_blank" rel="noopener">Google One 2 TB (Google Photos and Drive)</a></td><td>$9.99 per month</td><td>Easy sharing with family, face grouping and search in Google Photos</td></tr>
+  </table></div>
+  <p>Using both is fine: Backblaze as the safety net, Google Photos as the place the family enjoys the pictures.</p>
+</section>
+
+<section id="settings">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></span>Scan settings and file types</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Item</th><th>Setting</th><th>File type</th><th>Size each (estimate)</th></tr>
+    <tr><td>Everyday prints (4x6, 5x7)</td><td>600 dpi</td><td>TIFF to keep, JPEG to share</td><td>About 26 MB TIFF, a few MB JPEG</td></tr>
+    <tr><td>Small prints, wallets, ones to enlarge</td><td>1200 dpi or more (flatbed)</td><td>TIFF</td><td>About 100 MB TIFF</td></tr>
+    <tr><td>Slides and negatives</td><td>3000 to 4000 dpi</td><td>TIFF</td><td>About 30 to 60 MB</td></tr>
+    <tr><td>VHS and Hi8 via Elgato</td><td>Software default</td><td>MP4</td><td>Under 1 GB per hour</td></tr>
+    <tr><td>MiniDV via FireWire</td><td>Exact copy</td><td>DV (.avi)</td><td>About 13 GB per hour</td></tr>
+    <tr><td>Music CDs and cassettes</td><td>High quality</td><td>MP3 or FLAC</td><td>Under 100 MB per album</td></tr>
+  </table></div>
+  <p>TIFF keeps every detail and is the master copy; JPEG is smaller and easier to email. The FastFoto can save both at once. Its true sensor resolution is 600 dpi (its 1200 dpi setting is enlarged by software), so use a flatbed when true 1200 dpi matters. Even 10,000 TIFF photos fit easily on an 8 TB drive.</p>
+</section>
+
+<section id="software">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3M7 9l3 3-3 3M13 15h4"/></svg></span>Software</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Job</th><th>Software</th><th>Cost</th></tr>
+    <tr><td>Scanning prints (FastFoto)</td><td>Epson FastFoto software</td><td>Included</td></tr>
+    <tr><td>Scanning prints (V39 II)</td><td>Epson ScanSmart, with Easy Photo Fix for faded color</td><td>Included</td></tr>
+    <tr><td>Scanning film (Plustek, V850)</td><td>SilverFast SE Plus</td><td>Included</td></tr>
+    <tr><td>Copying VHS and Hi8</td><td>Elgato Video Capture app</td><td>Free</td></tr>
+    <tr><td>Copying MiniDV</td><td>WinDV</td><td>Free</td></tr>
+    <tr><td>Copying music CDs</td><td>Windows Media Player (built in)</td><td>Free</td></tr>
+    <tr><td>Copying home-made DVDs</td><td>HandBrake (discs without copy protection)</td><td>Free</td></tr>
+    <tr><td>Organizing, dates, names, faces</td><td>digiKam</td><td>Free</td></tr>
+    <tr><td>Sharing with family</td><td>Google Photos (face grouping and search)</td><td>Free up to 15 GB, then Google One</td></tr>
+    <tr><td>Advanced photo editing</td><td>Adobe Lightroom</td><td>Paid subscription; price not confirmed</td></tr>
+  </table></div>
+</section>
+
+<section id="tips">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg></span>Tips for doing the work</h2>
+  <div class="grid g2">
+    <div class="card">
+      <ol class="steps">
+        <li><b>Handle gently.</b> Clean, dry hands or cotton gloves; hold photos and film by the edges.</li>
+        <li><b>Dust, don't wipe.</b> Brush or blow off dust; a soft microfiber cloth helps. No water or cleaners. Wipe the scanner glass each session.</li>
+        <li><b>Feeder for healthy prints only.</b> Torn, curled, thick or stuck photos go on the flatbed or in the FastFoto's carrier sheet.</li>
+        <li><b>Name folders by year and event.</b> For example <code>Photos/1975/1975-07 Lake trip/</code> with files like <code>1975-07_Lake-trip_001.tif</code>.</li>
+        <li><b>Write down who and where.</b> The FastFoto saves the backs of photos; add names in digiKam or Google Photos.</li>
+        <li><b>Back up after every session.</b> Copy new files to the external drive; online backup runs on its own.</li>
+        <li><b>Keep the originals.</b> Store them in acid-free boxes somewhere cool and dry.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">How long it takes (estimates)</h3>
+      <div class="tablewrap"><table>
+        <tr><th>Task</th><th>Realistic pace</th></tr>
+        <tr><td>Loose prints, FastFoto</td><td>A few hundred an hour including sorting (Epson's top speed is about 1 per second at 300 dpi)</td></tr>
+        <tr><td>Prints, flatbed</td><td>Roughly 100 to 200 an hour, 3 or 4 at a time</td></tr>
+        <tr><td>Slides and negatives</td><td>Roughly 40 to 60 an hour</td></tr>
+        <tr><td>Video tapes</td><td>Real time: a 2-hour tape takes 2 hours, unattended</td></tr>
+        <tr><td>Cassettes</td><td>Real time, both sides</td></tr>
+      </table></div>
+      <p style="font-size:16px;margin-bottom:0">A typical collection (a few thousand prints and a couple dozen tapes) is several weekends to a few months at a relaxed pace.</p>
+    </div>
+  </div>
+</section>
+
+<section id="outsource">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4z"/><path d="M3 7v10l9 4 9-4V7M12 11v10"/></svg></span>Do it yourself or send it out?</h2>
+  <p class="lede">Legacybox counts one tape, film reel or audio cassette, or a set of 25 photos, slides or negatives, as one item.</p>
+  <div class="grid g2">
+    <div class="card"><h3 style="margin-top:0">Photos: Legacybox vs. the FastFoto</h3><div class="chart"><canvas id="diyChart" aria-label="Bar chart comparing Legacybox cost to buying a FastFoto"></canvas></div>
+      <p style="font-size:14px;color:var(--muted);margin:8px 0 0">Legacybox prices as listed. The FastFoto bar is the scanner only, since the computer is being bought anyway. The scanner costs the same however many photos there are.</p></div>
+    <div class="card">
+      <div class="tablewrap"><table>
+        <tr><th>Legacybox package</th><th>Items</th><th>Price shown</th></tr>
+        <tr><td>Starter</td><td>2</td><td>$69.98</td></tr>
+        <tr><td>Family</td><td>10</td><td>$319.98</td></tr>
+        <tr><td>Closet</td><td>20</td><td>$639.98</td></tr>
+        <tr><td>Trunk</td><td>40</td><td>$1,249.98</td></tr>
+        <tr><td>Vault</td><td>80</td><td>$2,499.98</td></tr>
+      </table></div>
+      <p style="font-size:15px">Turnaround is 4 to 6 weeks. The site showed a "40% off sitewide" banner through the end of October; it was not clear whether the prices above already include it, so check at checkout. <a href="https://legacybox.com/" target="_blank" rel="noopener">legacybox.com</a>. Local scanning shops vary; get a quote.</p>
+    </div>
+  </div>
+  <div class="grid g2">
+    <div class="card"><h3 style="margin-top:0;color:var(--good)">Doing it yourself</h3><ul style="margin:0;padding-left:20px"><li>Cheaper per photo once past a few hundred</li><li>Originals never leave the house</li><li>He keeps a new PC and scanner afterward</li><li>Can add names and stories as he goes</li></ul></div>
+    <div class="card"><h3 style="margin-top:0;color:var(--warn)">Sending it out</h3><ul style="margin:0;padding-left:20px"><li>No time or learning needed</li><li>Best for a handful of tapes, film reels, or damaged tapes</li><li>Costs add up fast with thousands of photos</li><li>Originals are shipped away for weeks</li></ul></div>
+  </div>
+  <div class="callout"><strong>Good middle ground:</strong> scan the photos at home with the FastFoto, and send out only the odd items, such as film reels, MiniDV tapes without a FireWire setup, or damaged tapes.</div>
+</section>
+
+<section id="fine">
+  <h2><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg></span>Good to know</h2>
+  <div class="note">
+    <ul style="margin:0;padding-left:20px">
+      <li>Prices were read from each store page on Sunday, October 25, 2026, before tax and shipping. Sale prices can end at any time.</li>
+      <li>Micro Center pickup-only items (Dell PC, Seagate drive) need a Micro Center store nearby. The Dell has a 15-day return window there.</li>
+      <li>The FastFoto takes prints up to 8x10 inches and thinner than 0.3 mm. Thicker or fragile items go on the flatbed.</li>
+      <li>The Elgato's reviews on its own site average 2.7 out of 5 (56 reviews). It is picked for its simple guided software; buy where returns are easy. Badly worn tapes may need a professional transfer.</li>
+      <li>Lenovo's own spec sheet lists one low-profile PCIe slot in this Lenovo model, and the StarTech FireWire card comes with a low-profile bracket, so MiniDV should work on either computer. Confirm the fit before buying; the Dell has more room.</li>
+      <li>FireWire on Windows 11 usually works with the built-in driver, but results vary by PC; test with an unimportant tape first.</li>
+      <li>An HP OmniDesk was considered but its price did not show on HP's page, so it is left out.</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Curated for Raymond Wrobel.</strong> Prices checked Sunday, October 25, 2026. Product photos are from each manufacturer's or retailer's product page and belong to their owners. Not affiliated with any store; no affiliate links.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script>
+const P = {
+  lenovo:{name:"Lenovo IdeaCentre Tower (Ryzen AI 7 350, 16 GB, 1 TB, Windows 11 Home)",price:899.00,store:"B&H Photo",img:"assets/img/lenovo.jpg",url:"https://www.bhphotovideo.com/c/product/1975634-REG/lenovo_91cx0000us_ideacentre_08akp10_desktop_computer.html",why:"Fast and simple, 7 USB ports and Wi-Fi.",tag:"Ships",ok:true},
+  dell:{name:"Dell Tower ECT1250 (Core Ultra 5 225, 16 GB, 1 TB, Windows 11 Home)",price:899.99,store:"Micro Center",img:"assets/img/dell.jpg",url:"https://www.microcenter.com/product/697555/dell-tower-ect1250-desktop-computer",why:"More expansion slots for add-in cards, plus an SD card reader.",tag:"Store pickup only"},
+  fastfoto:{name:"Epson FastFoto FF-680W photo scanner",price:529.99,was:"$629.99",store:"Epson",img:"assets/img/fastfoto.jpg",url:"https://epson.com/For-Home/Scanners/Photo-Scanners/FastFoto-FF-680W-Wireless-High-speed-Photo-Scanning-System/p/B11B237201",why:"Feeds up to 36 prints at once and scans fronts and backs in one pass.",tag:"Sale price",ok:true},
+  v39:{name:"Epson Perfection V39 II flatbed scanner",price:119.99,was:"$129.99",store:"Epson",img:"assets/img/v39.jpg",url:"https://epson.com/For-Home/Scanners/Photo-Scanners/Epson-Perfection-V39-II-Color-Photo-and-Document-Flatbed-Scanner/p/B11B268201",why:"Sharp 4800 dpi and gentle on fragile, curled or album photos.",tag:"Sale price",ok:true},
+  asus:{name:"ASUS ZenDrive V1M external CD/DVD drive",price:39.99,store:"Micro Center",img:"assets/img/asus.jpg",url:"https://www.microcenter.com/product/651067/asus-zendrive-v1m-external-dvd-drive-and-writer",why:"Reads and burns CDs and DVDs over one USB-C cable.",tag:"Ships",ok:true},
+  wd:{name:"WD Elements 8 TB desktop backup drive",price:399.38,store:"B&H Photo",img:"assets/img/wd.jpg",url:"https://www.bhphotovideo.com/c/product/1415979-REG/wd_wdbwlg0080hbk_nesn_8tb_wd_elements_desktop.html",why:"Second copy of everything, with lots of room to spare.",tag:"Ships",ok:true},
+  seagate:{name:"Seagate Expansion 8 TB desktop drive",price:279.99,store:"Micro Center",img:"assets/img/seagate.jpg",url:"https://www.microcenter.com/product/714169/seagate-8tb-expansion-desktop-usb-32-gen-1-external-hard-drive-black",why:"Cheapest 8 TB found. No Micro Center nearby? Use the WD drive (+$119.39).",tag:"Store pickup only"},
+  monitor:{name:"Dell Pro P 24-inch monitor (P2426H)",price:164.99,store:"B&H Photo",img:"assets/img/monitor.jpg",url:"https://www.bhphotovideo.com/c/product/1964290-REG/dell_p2426h_pro_p_24_full.html",why:"Only if he needs a screen; neither computer includes one.",tag:"If needed",ok:true},
+  plustek:{name:"Plustek OpticFilm 8200i SE film and slide scanner",price:399.00,store:"B&H Photo",img:"assets/img/plustek.jpg",url:"https://www.bhphotovideo.com/c/product/980019-REG/plustek_783064365345_optic_film_8200ise_scanner.html",why:"35 mm slides and negatives, up to 7200 dpi, with dust removal.",tag:"Optional"},
+  v850:{name:"Epson Perfection V850 Pro (instead of the Plustek)",price:1999.00,store:"Epson",img:"assets/img/v850.jpg",url:"https://epson.com/For-Home/Scanners/Photo-Scanners/Epson-Perfection-V850-Pro-Photo-Scanner/p/B11B224201",why:"For slides, negatives, medium format and 4x5 film, plus prints; does batches.",tag:"Optional, alternative"},
+  elgato:{name:"Elgato Video Capture (VHS, Hi8 and more)",price:89.99,store:"Elgato",img:"assets/img/elgato.jpg",url:"https://www.elgato.com/us/en/p/video-capture",why:"Step-by-step software; plugs into a VCR or camcorder.",tag:"Optional"},
+  firewire:{name:"StarTech 3-port FireWire PCIe card (for MiniDV)",price:66.99,store:"B&H Photo",img:"assets/img/firewire.jpg",url:"https://www.bhphotovideo.com/c/product/1016906-REG/startech_pex1394b3_3_port_pci_e_1394b.html",why:"Exact digital copies of MiniDV tapes with free WinDV. Goes inside the PC.",tag:"Optional"},
+  audiostar:{name:"HamiltonBuhl AudioStar cassette and CD player",price:126.28,store:"HamiltonBuhl",img:"assets/img/audiostar.jpg",url:"https://hamiltonbuhl.com/store/products/10137/HamiltonBuhl-AudioStar-Boombox-Radio-CD-USB-Cassette-Player-with-Tape-and-CD-to-MP3-Converter",why:"Records cassettes straight to a USB flash drive as MP3.",tag:"Optional"}
+};
+const KITS = {
+  budget:{label:"Budget total",items:["lenovo","v39","asus","seagate"]},
+  mid:{label:"Mid-range total",items:["lenovo","fastfoto","asus","wd"]},
+  premium:{label:"Premium total",items:["dell","fastfoto","v39","asus","wd","seagate"]}
+};
+const money = n => "$" + n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const sum = ids => Math.round(ids.reduce((s,k)=>s+P[k].price,0)*100)/100;
+function card(k){
+  const p=P[k];
+  return `<article class="prod"><div class="img"><img src="${p.img}" alt="${p.name}"></div>
+  <div class="body"><span class="tag ${p.ok?'ok':''}">${p.tag}</span><div class="name">${p.name}</div>
+  <div class="price">${money(p.price)} ${p.was?`<small>was ${p.was}</small>`:''}</div>
+  <div class="why">${p.why}</div>
+  <a class="buy" href="${p.url}" target="_blank" rel="noopener">Buy at ${p.store}</a></div></article>`;
+}
+function showKit(id){
+  document.getElementById("kitProducts").innerHTML = KITS[id].items.map(card).join("");
+  document.getElementById("kitLabel").textContent = KITS[id].label;
+  document.getElementById("kitTotal").textContent = money(sum(KITS[id].items));
+  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.kit===id));
+}
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>showKit(b.dataset.kit)));
+showKit("mid");
+document.getElementById("addonProducts").innerHTML = ["plustek","v850","elgato","firewire","audiostar"].map(card).join("");
+document.getElementById("extraProducts").innerHTML = ["monitor"].map(card).join("") +
+  `<article class="prod"><div class="body"><span class="tag ok">Yearly</span><div class="name">Backblaze Personal Backup</div><div class="price">$99.00 <small>per year</small></div><div class="why">Unlimited automatic online backup of the PC and plugged-in drives. Covers the "1 copy away from home" rule.</div><a class="buy" href="https://www.backblaze.com/cloud-backup/pricing" target="_blank" rel="noopener">See Backblaze plans</a></div></article>
+   <article class="prod"><div class="body"><span class="tag ok">Monthly</span><div class="name">Google One 2 TB (Google Photos and Drive)</div><div class="price">$9.99 <small>per month</small></div><div class="why">For sharing albums with family, with face grouping and search.</div><a class="buy" href="https://one.google.com/about/plans" target="_blank" rel="noopener">See Google One plans</a></div></article>`;
+
+if (window.Chart) {
+  Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+  Chart.defaults.font.size = 14;
+  const tip = {callbacks:{label:c=>" "+money(c.parsed.y ?? c.parsed)}};
+  new Chart(document.getElementById("kitChart"),{type:"bar",
+    data:{labels:["Budget","Mid-range","Premium"],datasets:[{data:[sum(KITS.budget.items),sum(KITS.mid.items),sum(KITS.premium.items)],backgroundColor:["#9db8ec","#2f6fde","#1e3a8a"],borderRadius:8}]},
+    options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:tip},scales:{y:{beginAtZero:true,ticks:{callback:v=>"$"+v.toLocaleString()}}}}});
+  new Chart(document.getElementById("midChart"),{type:"doughnut",
+    data:{labels:KITS.mid.items.map(k=>({lenovo:"Computer",fastfoto:"Photo scanner",asus:"CD/DVD drive",wd:"Backup drive"})[k]),datasets:[{data:KITS.mid.items.map(k=>P[k].price),backgroundColor:["#1e3a8a","#2f6fde","#7fb0ff","#c9dcff"]}]},
+    options:{maintainAspectRatio:false,plugins:{legend:{position:"bottom"},tooltip:{callbacks:{label:c=>" "+c.label+": "+money(c.parsed)}}}}});
+  new Chart(document.getElementById("diyChart"),{type:"bar",
+    data:{labels:["500 photos","1,000 photos","2,000 photos"],datasets:[
+      {label:"Legacybox",data:[639.98,1249.98,2499.98],backgroundColor:"#f0a020",borderRadius:6},
+      {label:"FastFoto scanner (DIY)",data:[529.99,529.99,529.99],backgroundColor:"#2f6fde",borderRadius:6}]},
+    options:{maintainAspectRatio:false,plugins:{legend:{position:"bottom"},tooltip:{callbacks:{label:c=>" "+c.dataset.label+": "+money(c.parsed.y)}}},scales:{y:{beginAtZero:true,ticks:{callback:v=>"$"+v.toLocaleString()}}}}});
+}
+</script>
+</body>
+</html>
